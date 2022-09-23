@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <div class="caja">
+           <img src="imagenes/logo.png" alt="Logo de alura con la inicial da letra a">
+           
+         </div>
+         <p class="titulo"> Encriptador de texto</p>
+         
+    </header>
+    <main>
+        <section class="principal">
+            <section class="caja-principal">
+                <section class="texto">
+                 <textarea class="input-texto" cols="40" rows="6" placeholder="Solo ingrese letras minusculas"></textarea>
+                </section>        
+                <section class="mensaje-box">
+                  <textarea class="mensaje" cols="18" rows="6"></textarea>
+                  
+                 </section> 
+            </section>     
+            <section class="botones">
+                <button class="encriptar" onclick="btnEncriptar()">
+                    Encriptar
+                </button>
+                <button class="desencriptar" onclick="btnDesencriptar()">
+                    Desencriptar
+                </button>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+             </section>  
+        </section>              
+    </main>
+    <footer>
+        <ul>
+            <lu>
+                <a href="https://www.linkedin.com/in/gisele-munoz-qa-pr/"><img src="imagenes/lin.png" class="img"></a>
+                <a href="https://github.com/giselemunoz"><img src="imagenes/minimini.png" class="img"></a>
+            </lu>
+        </ul>
+        <p class="copyright">&copy GiseleMuñoz - Encriptador</p>
+    </footer>
+    <script src="script.js"></script>
+   
+</body>
+</html>

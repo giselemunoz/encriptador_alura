@@ -1,0 +1,177 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+   
+}
+
+body{
+    margin: auto;
+    background: linear-gradient(#d6c8d6,#3d033d);
+   
+}
+
+
+
+header{
+    width: auto;
+	padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+   
+
+}
+
+.titulo{
+    margin-left: 400px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #302c2c;
+    text-shadow: #2f083a;
+
+}
+
+
+main {
+    
+    display: flex;
+    width: auto;
+  
+} 
+.principal{
+    width: auto;
+    margin: 0;
+}
+.caja-principal{
+    width: auto;
+    display: flex;
+    /*padding: 0 5%;*/
+}
+
+.input-texto {
+    background-color: #f7e8f8;
+    margin: 50px 55px 0 50px;
+    border: #000000;
+    border-radius: 5px;
+}
+
+.mensaje {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 90px;
+    background-color: #f7e8f8;
+    background-image: url("imagenes/muneco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    border-radius: 5px;
+
+}
+
+.copiar {
+    position: relative;
+     margin-left: 350px;
+    background-color:  #2f083a;
+    color:white;
+    border: none;
+	border-radius: 5px;
+    transition: 1s all;
+	cursor: pointer;
+}
+.copiar:hover,.encriptar:hover,.desencriptar:hover{
+	background: #8f7193;
+	transform: scale(1.1);
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px 15px 20px;
+}
+
+.encriptar {
+    
+    margin-left: 140px;
+    background-color: #2f083a;
+    color:white;
+    border: none;
+	border-radius: 5px;
+    transition: 1s all;
+	cursor: pointer;
+}
+
+
+.desencriptar {
+    margin-left: 160px;
+    background-color: #2f083a;
+    color:white;
+    border: none;
+	border-radius: 5px;
+    transition: 1s all;
+	cursor: pointer;
+}
+
+
+.informacion {
+    font-size: 15px;
+}
+footer{
+   
+    height: 110px;
+    text-align: center;
+	
+}
+.img{
+    max-width: 50%;
+    max-height: 50%;
+    margin: 20px 30px 0px;
+    
+}
+.img{
+    width: 50px;
+    height: 50px;
+    
+}
+.copyright{
+	color: #CCCCCC;
+	font-size:13px; 
+	margin: 0;
+}
+@media screen and (max-width: 640px){
+	
+	.titulo{
+		position: static;
+	}
+   .caja-principal{
+    display: block;
+    width: auto;
+   }
+   .mensaje-box, .texto{
+    width: 100%;
+   }
+   #mensaje{
+    height: 150px;
+    background-size: 30%;
+   }
+   #copiar{
+    width: 100%;
+   }
+   .botones{
+    margin-left: 0%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+   }
+
+    footer{
+        width: auto;
+        position: center;
+    }
+    
+	
+    
+}
